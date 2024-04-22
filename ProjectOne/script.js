@@ -22,3 +22,20 @@ const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 
 // let inventory = ["stick","dagger","sword"];
+function goStore() {
+  console.log("Going to Store.");
+  <p id="button1"></p>;
+  const info = document.querySelector(
+    (info.innertext = "Buy 10 health (10 gold)")
+  );
+}
+function goCave() {
+  console.log("Going to cave.");
+}
+function fightDragon() {
+  console.log("Fighting dragon.");
+}
+// initialize buttons
+button1.onclick = goStore;
+button2.onclick = goCave;
+button3.onclick = fightDragon;
